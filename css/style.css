@@ -1,72 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap');
 @import "reset.css";
 @import "status-bar.css";
+@import "screens/login.css";
+@import "nav-bar.css";
+@import "screen-header.css";
+@import "screens/stores.css";
+@import "user-component.css";
+@import "variables.css";
 body{
     background-color: rgb(205, 255, 164);
     font-family: 'Noto Sans KR', sans-serif;
-}
-.welcome-header{
-    margin: 90px 0px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: 600;
-}
-.welcome-header__title{
-    color: black;
-    margin-bottom: 20px;
-    font-size: 25px;
-}
-.welcome-header__text{
-    font-size: 16px;
-    width: 32%;
-    opacity: 0.7;
-}
-#login-form{
-    display: flex;
-    flex-direction: column;
-    margin: 0px 30px;
-}
-#login-form input{
-    
-    background-color: rgb(205, 255, 164);
-    border: none;
-    padding: 15px 0px;
-    font-size: 18px;
-    border-bottom: 2px solid rgba(131, 131, 131, 0.623);
-    margin-bottom: 25px;
-    transition:border-color 0.3s ease-in-out ;
-}
-#login-form input:not([type="submit"]){
-    border-bottom: 2px solid rgba(131, 131, 131, 0.623);
-    transition: border-color 0.3s ease-in-out;
-}
-#login-form input::placeholder{
-    color: rgba(131, 131, 131, 0.623);
-    
-}
-#login-form input:focus{
-    border-color: rgb(255, 116, 202);
-}
-#login-form input[type="submit"]{
-    color: white;
-    box-shadow: 4px 10px 16px rgba(255, 143, 212, 0.692);
-    border-radius: 15px;
-    background-color: rgba(255, 116, 202, 0.692);
-    cursor: pointer;
-    padding: 20px 0px;
-    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
-    
-}
-#login-form a{
-    text-align: center;
-    text-decoration: none;
-    color: inherit;
-    font-size: 13px;
-}
-#login-form input[type="submit"]:hover{
-    color: rgb(85, 85, 85);
-    background-color: rgba(255, 161, 219, 0.781);
-    box-shadow: 4px 10px 16px rgba(255, 101, 196, 0.692);
+    height: 1000vh;
+    color: #2e363e;
 }

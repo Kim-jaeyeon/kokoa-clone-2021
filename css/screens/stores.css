@@ -1,0 +1,25 @@
+#stores-display-link{
+    text-align: center;
+    display: block;
+    background-color: #b3ff74;
+    padding: 15px 0px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#stores-display-link i{
+    color: rgba(0, 0, 0, 0.3);
+}
+.stores-screen{
+    padding: 0px var(--horizontal-space);
+}
+.stores-screen__channel{
+    margin-top: 25px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 15px;
+}
+.stores-screen__channel-header{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.3);
+}
