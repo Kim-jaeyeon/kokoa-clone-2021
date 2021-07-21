@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>stores-'TO MY DEAR'</title>
+    <title>Settings-'TO MY DEAR'</title>
 </head>
 <body>
     <div class="status-bar">
@@ -23,55 +23,47 @@
         </div>
     </div>
     
-<header class="screen-header">
-    <h1 class="screen-header__title">Stores</h1>
-    <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
-    </div>
-</header>
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.html">
+                <i class="fas fa-angle-left fa-3x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Settings</h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="fas fa-search-location fa-2x"></i>
+        </div>
+    </header>
 
-<a id="stores-display-link" href="">
-    <i class="fas fa-info-circle"></i>
-    Stores' Names Display
-    <i class="fas fa-chevron-right fa-xs"></i>
-</a>
 
-<main class="stores-screen">
-    <div class="user-component">
-        <div class="user-component__column">
-            <img class="user-component__avatar user-component__avatar--xl" src="IMG_2449.JPG"/>
-            <div class="user-component__text">
-                <h4 class="user-component__title">김재연</h4>
-                <h6 class="user-component__subtitle">이 것은 상태메시지다아아ㅏㅏㅏ</h6>
+
+<main class="main-screen ">
+    <ul class="settings-list">
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fas fa-bullhorn"></i>
+                <span>공지</span>  
             </div>
-        </div>
-        <div class="user-component__column"></div>
-    </div>
-    <div class="stores-screen__channel">
-        <div class="stores-screen__channel-header">
-            <span>
-                채널
-            </span>
-            <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-        <div class="user-component">
-            <div class="user-component__column">
-                <img class="user-component__avatar user-component__avatar--sm" src="IMG_2471.jpg"/>
-                <div class="user-component__text">
-                    <h4 class="user-component__title--not-bold">Flower shops 채널</h4>
-                    
-                </div>
+            <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fas fa-flask"></i>
+                <span>투 마이 디어 연구실</span>
             </div>
-            <div class="user-component__column">
-                <div>
-                    <span>2</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
+            <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fas fa-info-circle"></i>
+                <span>버전</span>
             </div>
-        </div>
-    </div>
+            <div class="settings__setting-column">최신 버전</div>
+        </li>
+        
+    </ul>
 </main>
 
 
@@ -98,7 +90,6 @@
             </li>
         </ul>
     </nav>
-    
     <div id="no-mobile">
         <span>화면이 너무 큽니다</span>
     </div>

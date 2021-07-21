@@ -9,6 +9,12 @@
 @import "variables.css";
 @import "badge.css";
 @import "find.css";
+@import "icon-row.css";
+@import "screens/more.css";
+@import "alt-screen-header.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+@import "no-mobile.css";
 body{
     background-color: rgb(205, 255, 164);
     font-family: 'Noto Sans KR', sans-serif;

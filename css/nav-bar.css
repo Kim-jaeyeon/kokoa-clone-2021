@@ -16,11 +16,22 @@
 }
 .nav__btn i:hover{
     font-size: 40px;
-    color:rgb(255, 116, 202)
+    color:rgb(255, 116, 202);
 }
 .nav__link{
     position: relative;
     color: #2e363e;
+}
+@keyframes notificationAnimation{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: none;
+    }
 }
 .nav_notification{
     background-color: rgb(255, 116, 202);
@@ -35,6 +46,7 @@
     position: absolute;
     left: 15px;
     bottom: 15px;
+    animation: notificationAnimation 2s ease-in-out infinite;
 }
 .nav_ellipsis{
     background-color: rgb(255, 116, 202);
