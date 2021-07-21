@@ -156,7 +156,7 @@
 .reply:focus-within button{
     opacity: 0;
 }
-input:focus{
+.reply input:focus-within{
     width: 95vw;
     transform: translateX(-13%) translateY(-80px);
 }
